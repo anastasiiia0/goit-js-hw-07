@@ -11,8 +11,10 @@ function createCollection() {
 
   createBtn.addEventListener('click', () => {
     const amount = parseInt(textInput.value);
-    if (amount < 1 || amount > 100)
+    if (amount < 1 || amount > 100) {
       alert('Please enter a number between 1 and 100.');
+      return;
+    }
 
     createBoxes(amount);
     textInput.value = '';
