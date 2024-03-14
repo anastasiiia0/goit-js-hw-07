@@ -12,15 +12,11 @@ body > p > a {
 }
 
 .gallery {
-  width: 100%;
+  max-width: 1440px;
   padding: 0 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 48px 24px;
-}
-
-.gallery > li {
-  width: calc((100% - 24px * 2) / 3);
 }
