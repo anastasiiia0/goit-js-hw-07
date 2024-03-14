@@ -1,0 +1,27 @@
+body > p {
+  max-width: 100px;
+  text-align: center;
+  padding: 6px;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+body > p > a {
+  color: #ffff;
+}
+
+.gallery {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 24px;
+}
+
+.gallery > li {
+  width: calc((100% - 24px * 2) / 3);
+}

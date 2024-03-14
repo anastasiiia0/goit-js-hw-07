@@ -1,0 +1,39 @@
+body > p {
+  max-width: 100px;
+  text-align: center;
+  padding: 6px;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+body > p > a {
+  color: #ffff;
+}
+
+.widget {
+  max-width: 345px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 88px 100px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.widget > p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.change-color {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: rgb(78, 117, 255);
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+}

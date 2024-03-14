@@ -1,0 +1,73 @@
+body > p {
+  max-width: 100px;
+  text-align: center;
+  padding: 6px;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+body > p > a {
+  color: #ffff;
+}
+
+#controls {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+#controls > input {
+  padding: 8px 12px;
+  min-width: 150px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+button[data-create] {
+  min-width: 120px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: rgb(78, 117, 255);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button[data-create]:hover {
+  background-color: #6c8cff;
+}
+
+button[data-destroy] {
+  min-width: 120px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #ff4e4e;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}

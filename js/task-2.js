@@ -35,6 +35,8 @@ function addImages() {
     image.classList.add('gallery-list-img');
     image.src = item.url;
     image.alt = item.alt;
+    image.style.width = '360px';
+    image.style.height = '300px';
 
     listItem.append(image);
     galleryList.append(listItem);
