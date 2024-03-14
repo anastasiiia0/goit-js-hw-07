@@ -13,8 +13,8 @@ body > p > a {
 
 .gallery {
   max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 0 30px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
