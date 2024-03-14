@@ -27,20 +27,14 @@ const images = [
 
 function addImages() {
   const galleryList = document.querySelector('.gallery');
+  let galleryHTML = '';
 
   images.forEach(item => {
-    const listItem = document.createElement('li');
-    const image = document.createElement('img');
-
-    image.classList.add('gallery-list-img');
-    image.src = item.url;
-    image.alt = item.alt;
-    image.style.width = '360px';
-    image.style.height = '300px';
-
-    listItem.append(image);
-    galleryList.append(listItem);
+    galleryHTML += `<li><img src="${item.url}" alt="${item.alt}" 
+    class="gallery-list-img"></li>`;
   });
+
+  galleryList.innerHTML = galleryHTML;
 }
 
 addImages();

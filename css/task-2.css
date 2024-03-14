@@ -20,3 +20,8 @@ body > p > a {
   justify-content: center;
   gap: 48px 24px;
 }
+
+.gallery-list-img {
+  width: 360px;
+  height: 300px;
+}
